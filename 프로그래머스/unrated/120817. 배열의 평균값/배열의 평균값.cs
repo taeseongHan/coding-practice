@@ -9,9 +9,9 @@ for (int i = 0; i < numbers.Length; i++)
 
 {
    sum += numbers[i];   
-    answer = (sum / numbers.Length);
+    
 }
-            
+   answer = (sum / numbers.Length);         
          
         
         return answer;
