@@ -1,19 +1,17 @@
 public class Solution {
     public string solution(int n) {
         string answer = "";
-        
-        for(int i = 1; i < n+1; i++)
+
+        for(int i = 0; i < n/2; i++)
         {
-            if(i % 2 != 0)
-            {
-              answer += "수";
-            }
-            else if(i % 2 == 0)
-            {
-              answer += "박";
-            }
+            answer += "수박";
         }
-        
+
+        if(n%2 != 0)
+        {
+            answer += "수";
+        }
+
         return answer;
     }
 }
